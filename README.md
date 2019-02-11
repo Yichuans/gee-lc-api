@@ -34,6 +34,7 @@ Run the container
 Once this is done, you can open up your browser and visit `127.0.0.1:8888`. This will open the Jupyter notebook. You might need to copy and paste the token from the console to the browser the first time.
 
 Next you'll need to authorise the Google Earth Engine, which is currently open to trusted testers only. You can consult [this notebook](https://github.com/google/earthengine-api/blob/master/python/examples/ipynb/authorize_notebook_server.ipynb) for more information.
+Please note that you would also need to register a [Google Earth Engine account](https://code.earthengine.google.com/).
 
 More information on using `docker` and the earth engine can be found on [Google Earth Engine's Python API quick start](https://developers.google.com/earth-engine/python_install-datalab-local).
 
