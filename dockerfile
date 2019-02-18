@@ -11,6 +11,8 @@ COPY . /app
 RUN apt update -y
 RUN apt install -y python python-pip
 
+# Install Python Imaging Library - ImageTk to import ee.mapclient without errors
+RUN apt install -y python-imaging-tk
 
 RUN pip install --upgrade pip
 RUN pip install earthengine-api
