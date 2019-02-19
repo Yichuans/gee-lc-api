@@ -29,7 +29,7 @@ Build the image, see details in the `dockerfile`.
 `docker build -t gee:latest .`
 
 Run the container in Mac/Linux host
-`docker run --name "gee" -it -p "127.0.0.1:8888:8888" -v ~/workspace:/app gee`
+`docker run --name "gee" -it -p "127.0.0.1:8888:8888" -v ./workspace:/app gee`
 
 Run the container in windows host
 `docker run --name "gee" -it -p "127.0.0.1:8888:8888" -v %cd%/workspace:/app gee`
