@@ -23,7 +23,7 @@ Unlike other GIS and image processing platforms, the scale of analysis is determ
 
 Uses web mercator - uses speherical development of ellipsoidal coordinates. Relative to WGS84 + World Mercator (CRS 3395) errors of 0.7 percentage in scale and differences in northing of up to 43 km in the map may arise. More on [EPSG:3857](http://epsg.io/3857)
 
-## Other things to caution
+## Other things to note
 
 - `getInfo()` is synchronous, blocking until the result is received.
 - don't use `project()` if not needed
