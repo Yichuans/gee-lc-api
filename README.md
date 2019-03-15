@@ -42,6 +42,8 @@ Run the container in windows host
 docker run --name "gee" -it -p "127.0.0.1:8888:8888" -v %cd%/workspace:/app gee
 ```
 
+NB: Windows folder mount may stop working when your Active Directory password is reset - you will need to re-authorise the drive in which the folder is found, in the docker `settings\shared drives`
+
 Once this is done, you can open up your browser and visit `127.0.0.1:8888`. This will open the Jupyter notebook. You might need to copy and paste the token from the console to the browser the first time.
 
 Next you'll need to authorise the Google Earth Engine, which is currently open to trusted testers only. You can consult [this notebook](https://github.com/google/earthengine-api/blob/master/python/examples/ipynb/authorize_notebook_server.ipynb) for more information.
