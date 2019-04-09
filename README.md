@@ -51,6 +51,12 @@ Please note that you would also need to register a [Google Earth Engine account]
 
 More information on using `docker` and the earth engine can be found on [Google Earth Engine's Python API quick start](https://developers.google.com/earth-engine/python_install-datalab-local).
 
+When restarting a previously turned off docker instance, you can simply issue the command below
+
+```bash
+docker start gee
+```
+
 ## Minimal Python installation
 
 In cases where a Python environment is required for testing purposes or a remote intepretor (such as VS code) cannot be used to connect the Python environment within a docker container for development, please follow the below steps to install various libraries
